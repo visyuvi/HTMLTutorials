@@ -7,15 +7,40 @@
 </head>
 <body>
 
-	<form  action="xyz.php" method="GET" autocomplete="OFF" enctype="multipart/form-data" > 
-		<label>Email</label><br>
-		<input type="email" name="email"><br>
-		<label>Password</label><br>
-		<input type="password" name="password"> <br>
+	<form>
+		<label>Bio:</label>
+		<textarea rows="50" cols="30"></textarea><br>
 
-		<input type="submit" name="" value="Login">
+		<label>Year</label>
+		<select >
+			<optgroup>
+				<option>First year</option>
+				<option>Second year</option>
+			
+			</optgroup>
 
-		
+			<optgroup>
+				<option>Third  year</option>
+			
+			</optgroup>
+			
+		</select>
+
+		<label>Smartphone</label>
+		<input list="phone" name="">
+		<datalist id="phone">
+			<option value="Note 9"></option>
+			<option value="Note 2"></option>
+			<option value="Note 4"></option>		
+		</datalist>
+
+
+		<fieldset>
+			<legend>Education info</legend><br>
+			<input type="12th marks" name=""><br>
+			<input type="10th marks" name=""><br>
+			
+		</fieldset>
 	</form>
 
 </body>
